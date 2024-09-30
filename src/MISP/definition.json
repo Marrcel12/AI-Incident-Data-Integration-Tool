@@ -1,0 +1,115 @@
+{
+  "meta-category": "incident",
+  "name": "AI-incident",
+  "description": "Template for AI incidents",
+  "uuid": "4b80fc0a-ac85-44b9-b26b-e9d37e211a34",
+  "version": 1,
+  "requiredOneOf": [],
+  "attributes": {
+    "external_analysis_id": {
+      "description": "Unique ID for the external analysis or report",
+      "misp-attribute": "text",
+      "ui-priority": 0
+    },
+    "external_analysis_trigger": {
+      "description": "Trigger for the analysis, such as media reports or user complaints",
+      "misp-attribute": "text",
+      "ui-priority": 1
+    },
+    "external_analysis_link": {
+      "description": "Link to the detailed description and analysis of the incident",
+      "misp-attribute": "url",
+      "ui-priority": 2
+    },
+    "threat_actor_name": {
+      "description": "Name of the threat actor or entity involved in the incident",
+      "misp-attribute": "text",
+      "ui-priority": 3
+    },
+    "threat_actor_purpose": {
+      "description": "Purpose or objective of the threat actor in this incident",
+      "misp-attribute": "text",
+      "ui-priority": 4
+    },
+    "threat_actor_risks": {
+      "description": "Risks posed by the threat actor's actions, including ethical and social concerns",
+      "misp-attribute": "text",
+      "ui-priority": 5
+    },
+    "threat_actor_transparency": {
+      "description": "Aspects of transparency, governance, and marketing affected by the incident",
+      "misp-attribute": "text",
+      "ui-priority": 6
+    },
+    "event_occurred": {
+      "description": "Year the incident occurred",
+      "misp-attribute": "text",
+      "ui-priority": 19
+    },
+    "organization_countries": {
+      "description": "Country or countries involved or affected by the incident",
+      "misp-attribute": "text",
+      "ui-priority": 8
+    },
+    "organization_sectors": {
+      "description": "Sector or sectors involved or affected by the incident",
+      "misp-attribute": "text",
+      "ui-priority": 9
+    },
+    "organization_operators": {
+      "description": "Operators or entities directly involved in the incident",
+      "misp-attribute": "text",
+      "ui-priority": 10
+    },
+    "organization_developers": {
+      "description": "Developers of the technology or tools exploited in the incident",
+      "misp-attribute": "text",
+      "ui-priority": 11
+    },
+    "vulnerability_system_names": {
+      "description": "Names of systems or technologies exploited or affected by the incident",
+      "misp-attribute": "text",
+      "ui-priority": 12
+    },
+    "vulnerability_technologies": {
+      "description": "Technologies involved in or affected by the incident",
+      "misp-attribute": "text",
+      "ui-priority": 13
+    },
+    "attribution_external_harm_individual": {
+      "description": "External harm affecting individuals",
+      "misp-attribute": "text",
+      "ui-priority": 14
+    },
+    "attribution_external_harm_societal": {
+      "description": "External harm affecting societal aspects",
+      "misp-attribute": "text",
+      "ui-priority": 15
+    },
+    "attribution_external_harm_environmental": {
+      "description": "External harm affecting the environment",
+      "misp-attribute": "text",
+      "ui-priority": 16
+    },
+    "attribution_internal_harm_strategic_reputational": {
+      "description": "Internal harm affecting strategic or reputational aspects",
+      "misp-attribute": "text",
+      "ui-priority": 17
+    },
+    "attribution_internal_harm_operational": {
+      "description": "Internal harm affecting operational aspects",
+      "misp-attribute": "text",
+      "ui-priority": 18
+    },
+    "attribution_internal_harm_financial": {
+      "description": "Internal harm affecting financial aspects",
+      "misp-attribute": "text",
+      "ui-priority": 18
+    },
+    "associated_topic":{
+      "description": "It is associated topic, which was generated based on K-means, algorithm",
+      "misp-attribute": "text",
+      "ui-priority": 7
+    }
+  }
+}

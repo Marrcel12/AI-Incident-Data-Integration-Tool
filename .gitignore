@@ -1,0 +1,21 @@
+/output_files/*.json
+/output_files/*.csv
+/scritp.py
+/venv
+# switch if needed update misp-docker
+# /misp-docker
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+# vs settings
+.vscode
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
