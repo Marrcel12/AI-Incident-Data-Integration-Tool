@@ -3,7 +3,7 @@ activate-venv:
 	.\$(VENV)\Scripts\activate
 
 install: activate-venv
-	pip install -r requirments.txt
+	pip install -r requirements.txt
 
 upload_config:
 	docker cp YOUR_SRC/definition.json ad7be4fd1e32:/var/www/MISP/app/files/misp-objects/objects/ai-incident
